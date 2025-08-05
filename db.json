@@ -1,0 +1,553 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Introduction to JSON Server",
+      "body": "This post explains how to use JSON Server to quickly set up a mock REST API.",
+      "author": "John Doe",
+      "createdAt": "2025-06-01T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Understanding REST APIs",
+      "body": "Learn the basics of REST APIs, HTTP methods, and how clients communicate with servers.",
+      "author": "Jane Smith",
+      "createdAt": "2025-06-05T14:30:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Frontend Development with React",
+      "body": "React is a powerful JavaScript library for building user interfaces.",
+      "author": "Alice Johnson",
+      "createdAt": "2025-06-10T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Exploring Node.js",
+      "body": "Node.js allows you to run JavaScript on the server side and build scalable network applications.",
+      "author": "Bob Brown",
+      "createdAt": "2025-06-12T11:45:00Z"
+    },
+    {
+      "id": "5",
+      "title": "What is JSON?",
+      "body": "JSON (JavaScript Object Notation) is a lightweight data-interchange format that's easy for humans to read and write.",
+      "author": "Chris Green",
+      "createdAt": "2025-06-14T08:20:00Z"
+    }
+  ],
+  "cars": [
+    {
+      "id": "1",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/white-sedan-parked-road_114579-4021.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/close-up-car-front-light_1340-23309.jpg"
+    },
+    {
+      "id": "2",
+      "make": "Toyota",
+      "model": "Corolla",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/blue-sedan-car-isolated-white-background_114579-5075.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/side-view-silver-car_114579-5052.jpg"
+    },
+    {
+      "id": "3",
+      "make": "Toyota",
+      "model": "Corolla Hatchback",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/red-hatchback-driving-mountain-road_114579-4567.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/close-up-car-headlight_114579-5034.jpg"
+    },
+    {
+      "id": "4",
+      "make": "Toyota",
+      "model": "Corolla Sedan",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/white-car-city_114579-4004.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/red-car-driving-highway_114579-5057.jpg"
+    },
+    {
+      "id": "5",
+      "make": "Toyota",
+      "model": "Corolla Hybrid",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/blue-hybrid-car-urban-setting_114579-4032.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/close-up-hybrid-badge_114579-5078.jpg"
+    },
+    {
+      "id": "6",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2021,
+      "image": "https://img.freepik.com/free-photo/red-honda-civic-parked_114579-4040.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/modern-japanese-compact-car_114579-5090.jpg"
+    },
+    {
+      "id": "7",
+      "make": "Honda",
+      "model": "Civic Hatchback",
+      "year": 2021,
+      "image": "https://img.freepik.com/free-photo/sporty-hatchback-driving-road_114579-4569.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/close-up-car-rear_114579-5045.jpg"
+    },
+    {
+      "id": "8",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "year": 2021,
+      "image": "https://img.freepik.com/free-photo/white-sedan-urban-road_114579-4012.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/japanese-city-car_114579-5085.jpg"
+    },
+    {
+      "id": "9",
+      "make": "Honda",
+      "model": "Civic Si",
+      "year": 2021,
+      "image": "https://img.freepik.com/free-photo/sporty-compact-car-driving_114579-4571.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/performance-car-details_114579-5038.jpg"
+    },
+    {
+      "id": "10",
+      "make": "Honda",
+      "model": "Civic Sedan",
+      "year": 2021,
+      "image": "https://img.freepik.com/free-photo/blue-sedan-parked-city_114579-4023.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/asian-urban-car_114579-5082.jpg"
+    },
+    {
+      "id": "11",
+      "make": "Ford",
+      "model": "Focus ST",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/sport-hatchback-orange_114579-4050.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/japanese-dealership-ford_114579-5088.jpg"
+    },
+    {
+      "id": "12",
+      "make": "Ford",
+      "model": "Focus ST",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/yellow-sport-car-moving_114579-4052.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/imported-performance-car_114579-5036.jpg"
+    },
+    {
+      "id": "13",
+      "make": "Ford",
+      "model": "Focus ST",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/orange-hatchback-isolated_114579-4048.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/car-street-tokyo_114579-5079.jpg"
+    },
+    {
+      "id": "14",
+      "make": "Ford",
+      "model": "Focus ST",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/silver-sport-car_114579-4046.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/jdm-car-details_114579-5040.jpg"
+    },
+    {
+      "id": "15",
+      "make": "Ford",
+      "model": "Focus ST Edition",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/blue-focus-st-edition_114579-4054.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/special-edition-japanese-import_114579-5092.jpg"
+    },
+    {
+      "id": "16",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "year": 2022,
+      "image": "https://img.freepik.com/free-photo/modern-sedan-highway_114579-4018.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/american-car-japan_114579-5080.jpg"
+    },
+    {
+      "id": "17",
+      "make": "Hyundai",
+      "model": "Elantra",
+      "year": 2023,
+      "image": "https://img.freepik.com/free-photo/red-elantra-driving_114579-4058.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/korean-car-japanese-market_114579-5087.jpg"
+    },
+    {
+      "id": "18",
+      "make": "Nissan",
+      "model": "Altima",
+      "year": 2020,
+      "image": "https://img.freepik.com/free-photo/black-sedan-city_114579-4007.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/nissan-japan-version_114579-5042.jpg"
+    },
+    {
+      "id": "19",
+      "make": "Volkswagen",
+      "model": "Jetta",
+      "year": 2021,
+      "image": "https://img.freepik.com/free-photo/white-jetta-parked_114579-4036.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/vw-japanese-edition_114579-5048.jpg"
+    },
+    {
+      "id": "20",
+      "make": "Subaru",
+      "model": "Impreza",
+      "year": 2019,
+      "image": "https://img.freepik.com/free-photo/blue-impreza-forest-road_114579-4062.jpg",
+      "jp_image": "https://img.freepik.com/free-photo/japanese-subaru-street_114579-5055.jpg"
+    }
+  ],
+  "todos": [
+    {
+      "userId": 1,
+      "id": "1",
+      "title": "delectus aut autem",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "2",
+      "title": "quis ut nam facilis et officia qui",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "3",
+      "title": "fugiat veniam minus",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "4",
+      "title": "et porro tempora",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "5",
+      "title": "laboriosam mollitia et enim quasi adipisci quia provident illum",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "6",
+      "title": "qui ullam ratione quibusdam voluptatem quia omnis",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "7",
+      "title": "illo expedita consequatur quia in",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "8",
+      "title": "quo adipisci enim quam ut ab",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "9",
+      "title": "molestiae perspiciatis ipsa",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "10",
+      "title": "illo est ratione doloremque quia maiores aut",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "11",
+      "title": "vero rerum temporibus dolor",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "12",
+      "title": "ipsa repellendus fugit nisi",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "13",
+      "title": "et doloremque nulla",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "14",
+      "title": "repellendus sunt dolores architecto voluptatum",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "15",
+      "title": "ab voluptatum amet voluptas",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "16",
+      "title": "accusamus eos facilis sint et aut voluptatem",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "17",
+      "title": "quo laboriosam deleniti aut qui",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "18",
+      "title": "dolorum est consequatur ea mollitia in culpa",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "19",
+      "title": "molestiae ipsa aut voluptatibus pariatur dolor nihil",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "20",
+      "title": "ullam nobis libero sapiente ad optio sint",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "21",
+      "title": "suscipit repellat esse quibusdam voluptatem incidunt",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "22",
+      "title": "distinctio vitae autem nihil ut molestias quo",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "23",
+      "title": "et itaque necessitatibus maxime molestiae qui quas velit",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "24",
+      "title": "adipisci non ad dicta qui amet quaerat doloribus ea",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "25",
+      "title": "voluptas quo tenetur perspiciatis explicabo natus",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "26",
+      "title": "aliquam aut quasi",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "27",
+      "title": "veritatis pariatur delectus",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "28",
+      "title": "nesciunt totam sit blanditiis sit",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "29",
+      "title": "laborum aut in quam",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "30",
+      "title": "nemo perspiciatis repellat ut dolor libero commodi blanditiis omnis",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "31",
+      "title": "repudiandae totam in est sint facere fuga",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "32",
+      "title": "earum doloribus ea doloremque quis",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "33",
+      "title": "sint sit aut vero",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "34",
+      "title": "porro aut necessitatibus eaque distinctio",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "35",
+      "title": "repellendus veritatis molestias dicta incidunt",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "36",
+      "title": "excepturi deleniti adipisci voluptatem et neque optio illum ad",
+      "completed": true
+    },
+    {
+      "userId": 2,
+      "id": "37",
+      "title": "sunt cum tempora",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "38",
+      "title": "totam quia non",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "39",
+      "title": "doloremque quibusdam asperiores libero corrupti illum qui omnis",
+      "completed": false
+    },
+    {
+      "userId": 2,
+      "id": "40",
+      "title": "totam atque quo nesciunt",
+      "completed": true
+    },
+    {
+      "userId": 3,
+      "id": "41",
+      "title": "aliquid amet impedit consequatur aspernatur placeat eaque fugiat suscipit",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": "42",
+      "title": "rerum perferendis error quia ut eveniet",
+      "completed": false
+    },
+    {
+      "userId": 3,
+      "id": "43",
+      "title": "tempore ut sint quis recusandae",
+      "completed": true
+    },
+    {
+      "id": "e3fa",
+      "params": {}
+    },
+    {
+      "id": "738c",
+      "params": {}
+    },
+    {
+      "id": "0d0a",
+      "params": {}
+    },
+    {
+      "id": "2462",
+      "params": {}
+    },
+    {
+      "id": "0f18",
+      "params": {}
+    },
+    {
+      "id": "3243"
+    },
+    {
+      "id": "7d2f",
+      "title": "sadA"
+    },
+    {
+      "id": "bd7f",
+      "body": "QWQ",
+      "title": "QWEQWE"
+    },
+    {
+      "id": "28cb",
+      "title": "wewqe",
+      "body": "qweqwewqe"
+    },
+    {
+      "id": "0340",
+      "title": "RR",
+      "body": "TTT"
+    },
+    {
+      "id": "465f",
+      "title": "KKKK",
+      "body": "KKK"
+    },
+    {
+      "id": "42cd",
+      "title": "QDSFS",
+      "body": "DSFSDAF"
+    },
+    {
+      "id": "13ff",
+      "title": "sdfsdf",
+      "body": "dfsdf"
+    },
+    {
+      "id": "022f",
+      "title": "wqeqwe",
+      "body": "qwewq"
+    },
+    {
+      "id": "ed46",
+      "title": "sdfsadf",
+      "body": "asdasd"
+    },
+    {
+      "id": "0161",
+      "title": "kkk",
+      "body": "ll"
+    },
+    {
+      "id": "3b15",
+      "title": "qwewqe",
+      "body": "wewq"
+    },
+    {
+      "id": "e81f",
+      "title": "fddd",
+      "body": "hffhhg"
+    },
+    {
+      "id": "4839",
+      "title": "ewrewr",
+      "body": "ll"
+    },
+    {
+      "id": "7343",
+      "title": "wqerwqr",
+      "body": "rewr"
+    }
+  ]
+}
